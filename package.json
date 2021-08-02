@@ -1,7 +1,7 @@
 {
-  "name": " DSA Bot",
+  "name": "DSA Bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "I provide best resources to learn DSA with fun! ",
   "main": "bot.js",
   "dependencies": {
     "discord.js": "^12.5.3",
@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./bot.js" 
   },
-  "keywords": [],
+  "keywords": [
+  ],
   "author": "Bhuvnesh Sharma",
-  "license": "ISC"
+  "license": "MIT"
 }
