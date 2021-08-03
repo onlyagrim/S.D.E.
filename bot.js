@@ -80,17 +80,29 @@ client.on('ready', () => {
                 `**Role Count:** ${roles.length}`,
                 `**Emoji Count:** ${emojis.size}`,
                 `**Member Count:** ${message.guild.memberCount}`,
-                `**Humans:** ${members.filter(member => !member.user.bot).size}`,
+                `**Humans:** ${members.filter(member => member.user).size + 1}`,
                 `**Bots:** ${members.filter(member => member.user.bot).size}`,
                 `**Text Channels:** ${channels.filter(channel => channel.type === 'text').size}`,
                 `**Voice Channels:** ${channels.filter(channel => channel.type === 'voice').size}`,
                 `**Boost Count:** ${message.guild.premiumSubscriptionCount || '0'}`,
                 '\u200b'
             ])
-            
+            .addField('Presence', [
+                `**Online:** ${message.guild.members.cache.filter(member => member.presence.status === 'online').size}`,
+                `**Idle:** ${message.guild.members.cache.filter(member => member.presence.status === 'idle').size}`,
+                `**Do Not Disturb:** ${message.guild.members.cache.filter(member => member.presence.status === 'dnd').size}`,
+                `**Offline:** ${message.guild.members.cache.filter(member => member.presence.status === 'offline').size}`,
+                '\u200b'
+            ])
+
             .addField(`Roles [${roles.length}]`, roles.join(', '))
 
-            .setTimestamp();
+            .setTimestamp()
+            .setFooter(
+                'Made with ❤️ by Bhuvnesh',
+
+                'https://i.ibb.co/jG3Gffy/dsa.jpg'
+            );
 
         message.channel.send(Embed)
     })
