@@ -45,7 +45,7 @@ client.on('ready', () => {
         message.channel.send(topics);
     });
 
-    command(client, 'serverinfo', (message) => {
+    command(client, 'serverInfo', (message) => {
         const { guild } = message
 
         const { name, owner, description } = guild
@@ -80,7 +80,7 @@ client.on('ready', () => {
                 `**Role Count:** ${roles.length}`,
                 `**Emoji Count:** ${emojis.size}`,
                 `**Member Count:** ${message.guild.memberCount}`,
-                `**Humans:** ${members.filter(member => member.user).size + 1}`,
+                `**Humans:** ${members.filter(member => !member.user.bot).size}`,
                 `**Bots:** ${members.filter(member => member.user.bot).size}`,
                 `**Text Channels:** ${channels.filter(channel => channel.type === 'text').size}`,
                 `**Voice Channels:** ${channels.filter(channel => channel.type === 'voice').size}`,
@@ -107,64 +107,72 @@ client.on('ready', () => {
         message.channel.send(Embed)
     })
 
-    command(client, 'invite', (message) => {
-        invitationmsg(message);
+    command(client,'serverCount',(message)=>{
+            let serverlist = 0
+            client.guilds.cache.forEach((guild) => {
+                serverlist+=1;
+            });
+            message.channel.send('DSA-Bot is currently running in '+ serverlist +' servers!!');
+        });
+
+        command(client, 'invite', (message) => {
+            invitationmsg(message);
+        });
+
     });
 
-});
-
-client.on('message', (message) => {
-    if (message.content === '+') {
-        message.channel.send(help);
-    }
-});
-const PREFIX = "+search";
+    client.on('message', (message) => {
+        if (message.content === '+') {
+            message.channel.send(help);
+        }
+    });
+    const PREFIX = "+search";
 
 
-client.on('message', (message) => {
-    if (message.content.startsWith(PREFIX)) {
-        const [...args] = message.content
-            .split(/\s+/);
+    client.on('message', (message) => {
+        if (message.content.startsWith(PREFIX)) {
+            const [...args] = message.content
+                .split(/\s+/);
 
-        if (args[1] === 'SinglyLL' && args[3] === 'C++' || args[3] === 'c++') {
-            message.channel.send('https://youtu.be/vcQIFT79_50');
+            if (args[1] === 'SinglyLL' && args[3] === 'C++' || args[3] === 'c++') {
+                message.channel.send('https://youtu.be/vcQIFT79_50');
+            }
+            else if (args[1] === 'SinglyLL' && args[3] === 'Python' || args[3] === 'python') {
+                message.channel.send('https://youtu.be/vyUh8brE7is');
+            }
+            else if (args[1] === 'SinglyLL' && args[3] === 'Java' || args[3] === 'java') {
+                message.channel.send('https://youtu.be/Ovhj6qDSF9M');
+            }
+            else if (args[1] === 'DoublyLL' && args[3] === 'C++' || args[3] === 'c++') {
+                message.channel.send('https://youtu.be/JdQeNxWCguQ?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
+            }
+            else if (args[1] === 'DoublyLL' && args[3] === 'Python' || args[3] === 'python') {
+                message.channel.send('https://youtu.be/UADuKgCraaY?list=RDCMUC63URkuUvnugRBeTNqmToKg');
+            }
+            else if (args[1] === 'DoublyLL' && args[3] === 'Java' || args[3] === 'java') {
+                message.channel.send('https://youtu.be/ZlNKNSz88Nk');
+            }
+            else if (args[1] === 'CircularLL' && args[3] === 'C++' || args[3] === 'c++') {
+                message.channel.send('https://youtu.be/HMkdlu5sP4A');
+            }
+            else if (args[1] === 'CircularLL' && args[3] === 'Python' || args[3] === 'python') {
+                message.channel.send('https://youtu.be/t8lyrfPStN0');
+            }
+            else if (args[1] === 'CircularLL' && args[3] === 'Java' || args[3] === 'java') {
+                message.channel.send('https://youtu.be/5XJGIDonHg4?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
+            }
+            else if (args[1] === 'StackByArray' && args[3] === 'C++' || args[3] === 'c++') {
+                message.channel.send('https://youtu.be/F1F2imiOJfk?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
+                message.channel.send('https://youtu.be/sFVxsglODoo?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
+            }
+            else if (args[1] === 'StackByArray' && args[3] === 'Python' || args[3] === 'python') {
+                message.channel.send('');
+            }
+            else if (args[1] === 'StackByArray' && args[3] === 'Java' || args[3] === 'java') {
+                message.channel.send('https://youtu.be/AzMA2ldkt-w?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
+            }
         }
-        else if (args[1] === 'SinglyLL' && args[3] === 'Python' || args[3] === 'python') {
-            message.channel.send('https://youtu.be/vyUh8brE7is');
-        }
-        else if (args[1] === 'SinglyLL' && args[3] === 'Java' || args[3] === 'java') {
-            message.channel.send('https://youtu.be/Ovhj6qDSF9M');
-        }
-        else if (args[1] === 'DoublyLL' && args[3] === 'C++' || args[3] === 'c++') {
-            message.channel.send('https://youtu.be/JdQeNxWCguQ?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
-        }
-        else if (args[1] === 'DoublyLL' && args[3] === 'Python' || args[3] === 'python') {
-            message.channel.send('https://youtu.be/UADuKgCraaY?list=RDCMUC63URkuUvnugRBeTNqmToKg');
-        }
-        else if (args[1] === 'DoublyLL' && args[3] === 'Java' || args[3] === 'java') {
-            message.channel.send('https://youtu.be/ZlNKNSz88Nk');
-        }
-        else if (args[1] === 'CircularLL' && args[3] === 'C++' || args[3] === 'c++') {
-            message.channel.send('https://youtu.be/HMkdlu5sP4A');
-        }
-        else if (args[1] === 'CircularLL' && args[3] === 'Python' || args[3] === 'python') {
-            message.channel.send('https://youtu.be/t8lyrfPStN0');
-        }
-        else if (args[1] === 'CircularLL' && args[3] === 'Java' || args[3] === 'java') {
-            message.channel.send('https://youtu.be/5XJGIDonHg4?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
-        }
-        else if (args[1] === 'StackByArray' && args[3] === 'C++' || args[3] === 'c++') {
-            message.channel.send('https://youtu.be/F1F2imiOJfk?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
-            message.channel.send('https://youtu.be/sFVxsglODoo?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
-        }
-        else if (args[1] === 'StackByArray' && args[3] === 'Python' || args[3] === 'python') {
-            message.channel.send('');
-        }
-        else if (args[1] === 'StackByArray' && args[3] === 'Java' || args[3] === 'java') {
-            message.channel.send('https://youtu.be/AzMA2ldkt-w?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
-        }
-    }
 
-});
+    });
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+    client.login(process.env.DISCORD_BOT_TOKEN);
