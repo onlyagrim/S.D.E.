@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Embed = new Discord.MessageEmbed()
+const Embed1 = new Discord.MessageEmbed()
 	.setColor('0x0099ff')
 	.setTitle('Learn with FUN')
 	.setAuthor(
@@ -17,7 +17,7 @@ const Embed = new Discord.MessageEmbed()
 		},
 		{
 			name: 'General Commands:',
-			value: '`+help\n`  `+invite\n` `+servers\n` `+version\n`'
+			value: '`+invite\n` `+servercount\n` `+serverinfo\n` `+version\n`'
 		},
 		{ name: 'Fun Commands:' ,value: '`+meme\n`' },
 		{
@@ -33,4 +33,4 @@ const Embed = new Discord.MessageEmbed()
 		'https://i.ibb.co/jG3Gffy/dsa.jpg'
 	);
 
-module.exports = Embed;
+module.exports = Embed1;
