@@ -17,9 +17,9 @@ const Embed1 = new Discord.MessageEmbed()
 		},
 		{
 			name: 'General Commands:',
-			value: '`+invite\n` `+serverinfo\n`'
+			value: '`+invite\n` `+serverInfo\n` `serverCount\n`'
 		},
-		{ name: 'Fun Commands:' ,value: '`+meme\n`' },
+		{ name: 'Fun Commands:' ,value: '`+MeMe\n`' },
 		{
 			name: ' Admin Commands:',
 			value: '`+cc\n` `+status\n\n\n`'
