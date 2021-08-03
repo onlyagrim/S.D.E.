@@ -80,7 +80,7 @@ client.on('ready', () => {
                 `**Role Count:** ${roles.length}`,
                 `**Emoji Count:** ${emojis.size}`,
                 `**Member Count:** ${message.guild.memberCount}`,
-                `**Humans:** ${members.filter(member => member.user).size}`,
+                `**Humans:** ${members.filter(member => !member.user.bot).size}`,
                 `**Bots:** ${members.filter(member => member.user.bot).size}`,
                 `**Text Channels:** ${channels.filter(channel => channel.type === 'text').size}`,
                 `**Voice Channels:** ${channels.filter(channel => channel.type === 'voice').size}`,
