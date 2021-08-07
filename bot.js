@@ -33,7 +33,9 @@ client.on('ready', () => {
             message.channel.send('Sorry! You don`t have permission to use this command.')
         }
     });
-
+    command(client, ["Meme","meme"], (message) => {
+        message.channel.send("Coming Soon!!");
+    });
 
     command(client, 'topics', (message) => {
         message.channel.send(topics);
