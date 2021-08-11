@@ -13,7 +13,7 @@ const cc = require('./Commands/cc.js');
 client.on('ready', () => {
 
     console.log(`${client.user.tag} has logged in.`);
-
+    
     command(client, ['cc', 'clearchannel'], message => {
         cc(message);
     });
@@ -130,42 +130,51 @@ client.on('message', (message) => {
         const [...args] = message.content
             .split(/\s+/);
 
-        if (args[1] === 'SinglyLL' && args[3] === 'C++' || args[3] === 'c++') {
+        if (args[1] === 'SinglyLL' && args[3] === 'C++') {
             message.channel.send('https://youtu.be/vcQIFT79_50');
         }
-        else if (args[1] === 'SinglyLL' && args[3] === 'Python' || args[3] === 'python') {
+        else if (args[1] === 'SinglyLL' && args[3] === 'Python') {
             message.channel.send('https://youtu.be/vyUh8brE7is');
         }
-        else if (args[1] === 'SinglyLL' && args[3] === 'Java' || args[3] === 'java') {
+        else if (args[1] === 'SinglyLL' && args[3] === 'Java') {
             message.channel.send('https://youtu.be/Ovhj6qDSF9M');
         }
-        else if (args[1] === 'DoublyLL' && args[3] === 'C++' || args[3] === 'c++') {
+        else if (args[1] === 'DoublyLL' && args[3] === 'C++') {
             message.channel.send('https://youtu.be/JdQeNxWCguQ?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
         }
-        else if (args[1] === 'DoublyLL' && args[3] === 'Python' || args[3] === 'python') {
+        else if (args[1] === 'DoublyLL' && args[3] === 'Python') {
             message.channel.send('https://youtu.be/UADuKgCraaY?list=RDCMUC63URkuUvnugRBeTNqmToKg');
         }
-        else if (args[1] === 'DoublyLL' && args[3] === 'Java' || args[3] === 'java') {
+        else if (args[1] === 'DoublyLL' && args[3] === 'Java') {
             message.channel.send('https://youtu.be/ZlNKNSz88Nk');
         }
-        else if (args[1] === 'CircularLL' && args[3] === 'C++' || args[3] === 'c++') {
+        else if (args[1] === 'CircularLL' && args[3] === 'C++') {
             message.channel.send('https://youtu.be/HMkdlu5sP4A');
         }
-        else if (args[1] === 'CircularLL' && args[3] === 'Python' || args[3] === 'python') {
+        else if (args[1] === 'CircularLL' && args[3] === 'Python') {
             message.channel.send('https://youtu.be/t8lyrfPStN0');
         }
-        else if (args[1] === 'CircularLL' && args[3] === 'Java' || args[3] === 'java') {
+        else if (args[1] === 'CircularLL' && args[3] === 'Java') {
             message.channel.send('https://youtu.be/5XJGIDonHg4?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
         }
-        else if (args[1] === 'StackByArray' && args[3] === 'C++' || args[3] === 'c++') {
+        else if (args[1] === 'StackByArray' && args[3] === 'C++') {
             message.channel.send('https://youtu.be/F1F2imiOJfk?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
             message.channel.send('https://youtu.be/sFVxsglODoo?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P');
         }
-        else if (args[1] === 'StackByArray' && args[3] === 'Python' || args[3] === 'python') {
-            message.channel.send('');
+        else if (args[1] === 'StackByArray' && args[3] === 'Python') {
+            message.channel.send('https://youtu.be/AKO9nI4tuhs');
         }
-        else if (args[1] === 'StackByArray' && args[3] === 'Java' || args[3] === 'java') {
+        else if (args[1] === 'StackByArray' && args[3] === 'Java' ) {
             message.channel.send('https://youtu.be/AzMA2ldkt-w?list=PLmYZBLBTiVwkgU5A89eVe7GHboEWcYElO');
+        }
+        else if (args[1] === 'StackByLL' && args[3] === 'C++' ) {
+            message.channel.send('https://youtu.be/Ebq7QUPaU7I');
+        }
+        else if (args[1] === 'StackByLL' && args[3] === 'Python' ) {
+            message.channel.send('https://youtu.be/K9LHxuE_Jrc');
+        }
+        else if (args[1] === 'StackByLL' && args[3] === 'Java' ) {
+            message.channel.send('https://youtu.be/b-MB4FcrTHs');
         }
     }
 
