@@ -10,7 +10,7 @@
 
 ## About :
 
-This bot was born out of curiousity to learn about discord js to provide resources for learning one of the most important subject DSA in a software engineer's life.
+This bot provides resources for learning one of the most important subject DSA in a software engineer's life.
 Many more features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
 - Topic wise video links on DSA 
