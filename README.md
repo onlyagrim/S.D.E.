@@ -52,7 +52,6 @@ Many more features will be added to this bot in future. To Invite it your server
 
 #### `+serverCount` - Tells the count of servers bot is running in.
 
-#### `+status` -  Sets the custom status of the bot in the particular server.
 
 <br/><br/>
 
