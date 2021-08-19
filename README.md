@@ -40,7 +40,7 @@ Many more features will be added to this bot in future. To Invite it your server
 
 #### `+` - Helps with the commands and features the bot offer
 
-#### `+search <topic> in <language>` - gives the link of the video of the specified topic in specified language.
+#### `+show <topic> in <language>` - gives the link of the video of the specified topic in specified language.
 
 #### `+topics` - Show's the DSA topics available
 
