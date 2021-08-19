@@ -8,12 +8,12 @@ const Embed1 = new Discord.MessageEmbed()
 		'https://discord.js.org'
 	)
 	.setDescription(
-		'Data structure and algorithms is one of the most important topic in a Software Engineer`s life. DSA Bot brings you the best resources to learn every topic of DSA.'
+		'Data structure and algorithms is one of the most important topic in a Software Engineer`s life. DSA Bot brings you the resources to learn every topic of DSA.'
 	)
 	.addFields(
 		{
 			name:'DSA Command:', 
-			value:'`Available languages: C++, Python, Java\n` `+search <Topic> in <Language>\n` `+topics\n`'
+			value:'`Available languages: C++, Python, Java\n` `+show <Topic> in <Language>\n` `+topics\n`'
 		},
 		{
 			name: 'General Commands:',

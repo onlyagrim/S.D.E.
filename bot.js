@@ -10,6 +10,7 @@ const invitationmsg = require('./Commands/Invitation.js');
 const topics = require('./Commands/topic.js');
 const cc = require('./Commands/cc.js');
 
+
 client.on('ready', () => {
 
     console.log(`${client.user.tag} has logged in.`);
@@ -17,6 +18,14 @@ client.on('ready', () => {
     command(client, ['cc', 'clearchannel'], message => {
         cc(message);
     });
+
+
+    client.user.setPresence({
+        activity: {
+            name: `'+' for help`,
+            type: 0,
+        }
+    })
 
     command(client, 'status', message => {
         if (message.member.hasPermission('ADMINISTRATOR')) {
@@ -122,7 +131,7 @@ client.on('message', (message) => {
         message.channel.send(help);
     }
 });
-const PREFIX = "+search";
+const PREFIX = "+show";
 
 
 client.on('message', (message) => {
@@ -176,6 +185,34 @@ client.on('message', (message) => {
         else if (args[1] === 'StackByLL' && args[3] === 'Java' ) {
             message.channel.send('https://youtu.be/b-MB4FcrTHs');
         }
+        else if (args[1] === 'QueueByArray' && args[3] === 'C++' ) {
+            message.channel.send('https://youtu.be/fbonDkYsKj0');
+        }
+        else if (args[1] === 'QueueByArray' && args[3] === 'Python' ) {
+            message.channel.send('https://youtu.be/pWnH4Q3eMKI');
+        }
+        else if (args[1] === 'QueueByArray' && args[3] === 'Java' ) {
+            message.channel.send('https://youtu.be/T0qUiI_L7S8');
+        }
+        else if (args[1] === 'QueueByLL' && args[3] === 'C++' ) {
+            message.channel.send('https://youtu.be/Yi8Im4_eSQI?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ');
+        }
+        else if (args[1] === 'QueueByLL' && args[3] === 'Python' ) {
+            message.channel.send('Sorry! This is unavailable but you can learn the concept int other language and try to code yourself!');
+        }
+        else if (args[1] === 'QueueByLL' && args[3] === 'Java' ) {
+            message.channel.send('https://youtu.be/Bf-P7TGD6QU');
+        }
+        else if (args[1] === 'QueueByStack' && args[3] === 'C++' ) {
+            message.channel.send('https://youtu.be/iEwX3XA5SDo?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ');
+        }
+        else if (args[1] === 'QueueByStack' && args[3] === 'Python' ) {
+            message.channel.send('Sorry! This is unavailable but you can learn the concept int other language and try to code yourself!');
+        }
+        else if (args[1] === 'QueueByStack' && args[3] === 'Java' ) {
+            message.channel.send('https://youtu.be/Mh8Dc8Fk-3E');
+        }
+
     }
 
 });
