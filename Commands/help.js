@@ -22,7 +22,7 @@ const Embed1 = new Discord.MessageEmbed()
 		{ name: 'Fun Commands:' ,value: '`+Meme\n`' },
 		{
 			name: ' Admin Commands:',
-			value: '`+cc or +clearchannel\n` `+status\n\n\n`'
+			value: '`+cc or +clearchannel\n` '
 		}
 	)
 	.setTimestamp()
