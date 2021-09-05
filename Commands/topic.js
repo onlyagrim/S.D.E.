@@ -10,7 +10,7 @@ const Embed3 = new Discord.MessageEmbed()
 	.addFields(
 		{
 			name:'Data Structures:',
-            value:'`SinglyLL\n` `DoublyLL\n` `CircularLL\n` `StackByArray\n` `StackByLL\n` `QueueByArray\n` `QueueByLL\n` `QueueByStack\n`'
+            value:'`SinglyLL\n` `DoublyLL\n` `CircularLL\n` `StackByArray\n` `StackByLL\n` `QueueByArray\n` `QueueByLL\n` `QueueByStack\n` `CircularQueue\n` '
 		},
 		
 	)
