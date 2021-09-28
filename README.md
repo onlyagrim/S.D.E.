@@ -3,7 +3,7 @@
 <h1 > DSA-Bot </h1>
 <p>
 <p>
-  <b>Bot which provides Qulaity content to study DSA with fun!!</b> 
+  <b>Bot which provides Quality content to study DSA with fun!!</b> 
 </p>
 
 <br/><br/>
