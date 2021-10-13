@@ -66,7 +66,7 @@ client.on('message', (message) => {
 });
 
 
-const PREFIX = "+show";
+const PREFIX = "+code";
 
 
 client.on('message', (message) => {
