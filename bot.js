@@ -30,21 +30,7 @@ client.on('ready', () => {
         }
     })
 
-    command(client, 'status', message => {
-        if (message.member.hasPermission('ADMINISTRATOR')) {
-            const content = message.content.replace('+status', '')
-
-            client.user.setPresence({
-                activity: {
-                    name: content,
-                    type: 0,
-                }
-            })
-        }
-        else {
-            message.channel.send('Sorry! You don`t have permission to use this command.')
-        }
-    });
+   
     command(client, ["Meme","meme"], (message) => {
         message.channel.send("Coming Soon!!");
     });
