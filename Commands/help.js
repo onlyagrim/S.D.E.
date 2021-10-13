@@ -13,13 +13,15 @@ const Embed1 = new Discord.MessageEmbed()
 	.addFields(
 		{
 			name:'DSA Command:', 
-			value:'`Available languages: C++, Python, Java\n` `+show <Topic> in <Language>\n` `+topics\n`'
+			value:'`Available languages: C++, Python, Java\n` `+code <Topic> in <Language>\n` `+topics\n`'
 		},
 		{
 			name: 'General Commands:',
 			value: '`+invite\n` `+serverInfo\n` `+serverCount\n`'
 		},
-		{ name: 'Fun Commands:' ,value: '`+Meme\n`' },
+		{ 
+			name: 'Fun Commands:' ,
+			value: '`+Meme\n`' },
 		{
 			name: ' Admin Commands:',
 			value: '`+cc or +clearchannel\n` '
