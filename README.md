@@ -3,17 +3,17 @@
 <h1 > DSA-Bot </h1>
 <p>
 <p>
-  <b>Bot which provides Qulaity content to study DSA with fun!!</b> 
+  <b>Bot which provides DSA Codes along with fun!!</b> 
 </p>
 
 <br/><br/>
 
 ## About :
 
-This bot provides resources for learning one of the most important subject DSA in a software engineer's life.
-Many more features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
+This bot was made with an aim to provide Code of various topics of DSA at one place in three different laguages i.e. Java, Python and C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other proramming language can easily take reference from DSA-Bot.
+More features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
-- Topic wise video links on DSA 
+- Topic wise Code of DSA 
 - 3 programming language support(c++, python, java)
 - Meme(under Developement)
 - Performing user requests
@@ -32,15 +32,15 @@ Many more features will be added to this bot in future. To Invite it your server
 
 <br/><br/>
 
-## Commands Preview :
+<!-- ## Commands Preview :
 
-![DSA-Bot](https://s6.gifyu.com/images/DSA-bot.gif)
+![DSA-Bot](https://s6.gifyu.com/images/DSA-bot.gif) -->
 
 <br/><br/>
 
 #### `+` - Helps with the commands and features the bot offer
 
-#### `+search <topic> in <language>` - gives the link of the video of the specified topic in specified language.
+#### `+code <topic> in <language>` - gives the link of the video of the specified topic in specified language.
 
 #### `+topics` - Show's the DSA topics available
 
@@ -52,22 +52,14 @@ Many more features will be added to this bot in future. To Invite it your server
 
 #### `+serverCount` - Tells the count of servers bot is running in.
 
-#### `+status` -  Sets the custom status of the bot in the particular server.
 
 <br/><br/>
 
 ## Intrested in contribution?
 
-You are free to come up with any contribution as you want just follow the following steps:
+You are free to come up with any contribution as you want but please go through [Contributing.md](Contributing.md) before contributing.
 
-1. Raise an issue
-2. Wait for approval and getting it assigned
-3. Forks this repo.
-4. Clone your foked repo
-5. Create a new branch
-6. Do specific changes
-7. Push it to your fork on GitHub
-8. Raise a PR with the new branch you made
+
 
 
 
