@@ -1,6 +1,6 @@
 {
   "name": "DSA-Bot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "I provide best resources to learn DSA with fun! ",
   "main": "bot.js",
   "dependencies": {
