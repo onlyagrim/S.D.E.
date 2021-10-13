@@ -58,7 +58,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 ## Intrested in contribution?
 
-You are free to come up with any contribution as you want but please go through [Contributing.md](Contributing.md) before contributing.
+You are free to come up with any contribution as you want but please go through [Contributing guide](Contributing.md) before contributing.
 
 
 
