@@ -1,0 +1,21 @@
+
+public class LinearSearch {
+    public static void main(String[] args) {
+//        Searching in Array of Integers
+        int[] numbers = {45, 67, 23, 89, 9, 12, 43, 91, 28, 66};
+        int number = 23;
+        System.out.println(number + " Present at index: " + linearSearch(numbers, number));
+    }
+
+    static int linearSearch(int[] arr, int ele) {
+//	Return -1 if array is empty
+        if (arr.length == 0)
+            return -1;
+//	Return index if element found else return -1
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == ele)
+                return i;
+        }
+        return -1;
+    }
+}
