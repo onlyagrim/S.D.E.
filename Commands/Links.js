@@ -29,6 +29,9 @@ function sendLink(message){
         else if (args[1] === 'BinarySearch' && args[3] === 'Java') {
             message.channel.send("Binary Search in Java", { files: ["./Codes/BinarySearchJava.txt"] });
         }
+        else{
+            message.channel.send("It is currently unavailable!");
+        }
 
 
 }
