@@ -30,7 +30,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 ### **Hosting:**
 
-- Netlify
+- Heroku
 
 <br/><br/>
 
