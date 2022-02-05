@@ -4,7 +4,8 @@
 <p>
 <p>
 
-  <b>Bot which provides DSA Codes along with fun!!</b> 
+<b>Bot which provides DSA Codes along with fun!!</b>
+
 </p>
 
 <br/><br/>
@@ -14,9 +15,9 @@
 This bot was made with an aim to provide Code of various topics of DSA at one place in three different laguages i.e. Java, Python and C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other proramming language can easily take reference from DSA-Bot.
 More features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
-- Topic wise Code of DSA 
+- Topic wise Code of DSA
 - 3 programming language support(c++, python, java)
-- Meme(under Developement)
+- Meme (only 10 req per day `useless`)
 - Performing user requests
 
 <br/>
@@ -29,7 +30,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 ### **Hosting:**
 
-- Heroku 
+- Netlify
 
 <br/><br/>
 
@@ -41,7 +42,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 #### `+` - Helps with the commands and features the bot offer
 
-#### `+code <topic> in <language>` - gives the link of the video of the specified topic in specified language.
+#### `+code <topic> in <language>` - Gives the link of the video of the specified topic in specified language.
 
 #### `+topics` - Show's the DSA topics available
 
@@ -53,15 +54,12 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 #### `+serverCount` - Tells the count of servers bot is running in.
 
+#### `+Meme or +meme` - Sends a meme in the guild.
+
+#### `+version` - Shows the current version of the bot.
 
 <br/><br/>
 
 ## Intrested in contribution?
 
 You are free to come up with any contribution as you want but please go through [Contributing guide](Contributing.md) before contributing.
-
-
-
-
-
-
