@@ -14,7 +14,7 @@ const Embed3 = new Discord.MessageEmbed()
 		},
 		
 	)
-	.setTimestamp()
+	
 	
 	.setFooter(
 		'Made with ❤️ by Bhuvnesh',
