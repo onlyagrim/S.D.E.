@@ -34,7 +34,6 @@ const Embed1 = new Discord.MessageEmbed()
 
   .setFooter(
     `Made with ❤️ by Bhuvnesh`,
-
     "https://i.ibb.co/jG3Gffy/dsa.jpg"
   );
 

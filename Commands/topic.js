@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const Embed3 = new Discord.MessageEmbed()
   .setColor("0x0099ff")
-
   .setAuthor("DSA Bot", "https://i.ibb.co/jG3Gffy/dsa.jpg")
 
   .addFields({
