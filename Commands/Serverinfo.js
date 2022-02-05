@@ -4,9 +4,7 @@ const moment = require("moment");
 function info(message) {
   const { guild } = message;
   if (guild == null) {
-    message.channel.send(
-      "I will not listen to your orders outside a server XD. "
-    );
+    message.channel.send("This place doesn't look like a server.🤔");
   } else {
     const { name, owner, description } = guild;
     const icon = guild.iconURL();
