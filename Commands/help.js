@@ -33,7 +33,7 @@ const Embed1 = new Discord.MessageEmbed()
   // .setTimestamp()
 
   .setFooter(
-    `Made with ❤️ by Bhuvnesh }`,
+    `Made with ❤️ by Bhuvnesh`,
 
     "https://i.ibb.co/jG3Gffy/dsa.jpg"
   );
