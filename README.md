@@ -17,7 +17,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 - Topic wise Code of DSA
 - 3 programming language support(c++, python, java)
-- Meme
+- Meme (only 10 req per day `useless`)
 - Performing user requests
 
 <br/>
