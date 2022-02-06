@@ -29,7 +29,7 @@ function sendLink(message) {
     message.channel.send("Linear Search in Java", {
       files: ["./Codes/LinearSearchJava.txt"],
     });
-  } else if (args[1] === "LinearSearch" && args[3] === "Cpp") {
+  } else if (args[1] === "LinearSearch" && args[3] === "C++") {
     message.channel.send("Linear Search in Cpp", {
       files: ["./Codes/LinearSearchCpp.txt"],
     });
