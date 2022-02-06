@@ -6,7 +6,7 @@ const Embed3 = new Discord.MessageEmbed()
   .addFields({
     name: "Data Structures:",
     value:
-      "`BinarySearch\n` `CircularLL\n` `DoublyLL\n` `LinearSearch\n` `SinglyLL\n` ",
+      "`◽BinarySearch\n``◽CircularLL\n``◽DoublyLL\n``◽LinearSearch\n``◽SinglyLL\n`",
   })
 
   .setFooter(
