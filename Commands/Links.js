@@ -29,9 +29,25 @@ function sendLink(message) {
     message.channel.send("Linear Search in Java", {
       files: ["./Codes/LinearSearchJava.txt"],
     });
+  } else if (args[1] === "LinearSearch" && args[3] === "Cpp") {
+    message.channel.send("Linear Search in Cpp", {
+      files: ["./Codes/LinearSearchCpp.txt"],
+    });
+  } else if (args[1] === "LinearSearch" && args[3] === "Python") {
+    message.channel.send("Linear Search in Python", {
+      files: ["./Codes/LinearSearchPython.txt"],
+    });
   } else if (args[1] === "BinarySearch" && args[3] === "Java") {
     message.channel.send("Binary Search in Java", {
       files: ["./Codes/BinarySearchJava.txt"],
+    });
+  } else if (args[1] === "BinarySearch" && args[3] === "C++") {
+    message.channel.send("Binary Search in Cpp", {
+      files: ["./Codes/BinarySearchCpp.txt"],
+    });
+  } else if (args[1] === "BinarySearch" && args[3] === "Python") {
+    message.channel.send("Binary Search in Python", {
+      files: ["./Codes/BinarySearchPython.txt"],
     });
   } else {
     message.reply(

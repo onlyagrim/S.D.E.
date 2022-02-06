@@ -15,7 +15,7 @@ const Embed1 = new Discord.MessageEmbed()
     {
       name: "DSA Command:",
       value:
-        "`Available languages: C++, Python, Java\n` `+code <Topic> in <Language>\n` `+topics\n`",
+        "`Available languages: C/C++, Python, Java\n` `+code <Topic> in <Language>\n` `+topics\n`",
     },
     {
       name: "General Commands:",
@@ -32,9 +32,6 @@ const Embed1 = new Discord.MessageEmbed()
   )
   // .setTimestamp()
 
-  .setFooter(
-    `Made with ❤️ by Bhuvnesh`,
-    "https://i.ibb.co/jG3Gffy/dsa.jpg"
-  );
+  .setFooter(`Made with ❤️ by Bhuvnesh`, "https://i.ibb.co/jG3Gffy/dsa.jpg");
 
 module.exports = Embed1;
