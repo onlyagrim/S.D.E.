@@ -44,7 +44,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 #### `+code <topic> in <language>` - Gives the link of the video of the specified topic in specified language.
 
-#### `+topics` - Show's the DSA topics available.
+#### `+topics` - Shows the DSA topics available.
 
 #### `+cc / +clearchanel` - Clears the recent converstion of that channel.
 
