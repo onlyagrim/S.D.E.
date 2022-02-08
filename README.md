@@ -46,7 +46,7 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 #### `+topics` - Shows the DSA topics available.
 
-#### `+cc / +clearchanel` - Clears the recent converstion of that channel.
+#### `+cc / +clearchanel` - Clears the recent conversation of that channel.
 
 #### `+serverInfo` - Displays all the information about the server.
 
