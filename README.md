@@ -12,7 +12,7 @@
 
 ## About :
 
-This bot was made with an aim to provide Code of various topics of DSA at one place in three different laguages i.e. Java, Python and C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other proramming language can easily take reference from DSA-Bot.
+This bot was made with an aim to provide Code of various topics of DSA at one place in three different languages i.e. Java, Python and C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other programming language can easily take reference from DSA-Bot.
 More features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
 - Topic wise Code of DSA
@@ -40,11 +40,11 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 <br/><br/>
 
-#### `+` - Helps with the commands and features the bot offer
+#### `+` - Helps with the commands and features the bot offer.
 
 #### `+code <topic> in <language>` - Gives the link of the video of the specified topic in specified language.
 
-#### `+topics` - Show's the DSA topics available
+#### `+topics` - Show's the DSA topics available.
 
 #### `+cc / +clearchanel` - Clears the recent converstion of that channel.
 
@@ -60,6 +60,6 @@ More features will be added to this bot in future. To Invite it your server [Cli
 
 <br/><br/>
 
-## Intrested in contribution?
+## Interested in contribution?
 
 You are free to come up with any contribution as you want but please go through [Contributing guide](Contributing.md) before contributing.
