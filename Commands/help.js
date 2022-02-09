@@ -15,22 +15,21 @@ const Embed1 = new Discord.MessageEmbed()
     {
       name: "DSA Command:",
       value:
-        "`Available languages: C/C++, Python, Java\n` `+code <Topic> in <Language>\n` `+topics\n`",
+        "`Available languages: C/C++, Python, Java\n``+code <Topic> in <Language>\n``+topics\n`",
     },
     {
       name: "General Commands:",
-      value: "`+invite\n` `+serverInfo\n` `+serverCount\n` `+version`",
+      value: "`+invite\n``+serverInfo\n``+serverCount\n``+version\n`",
     },
     {
       name: "Fun Commands:",
       value: "`+Meme or +meme (only 10 req per day  //useless)\n`",
     },
     {
-      name: " Admin Commands:",
-      value: "`+cc or +clearchannel\n` ",
+      name: "Admin Commands:",
+      value: "`+cc or +clearchannel\n`",
     }
   )
-  // .setTimestamp()
 
   .setFooter(`Made with ❤️ by Bhuvnesh`, "https://i.ibb.co/jG3Gffy/dsa.jpg");
 
