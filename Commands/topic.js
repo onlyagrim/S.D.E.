@@ -3,11 +3,16 @@ const Embed3 = new Discord.MessageEmbed()
   .setColor("0x0099ff")
   .setAuthor("DSA Bot", "https://i.ibb.co/jG3Gffy/dsa.jpg")
 
-  .addFields({
-    name: "Data Structures:",
-    value:
-      "`◽BinarySearch\n``◽CircularLL\n``◽DoublyLL\n``◽LinearSearch\n``◽SinglyLL\n`",
-  })
+  .addFields(
+    {
+      name: "Data Structures:",
+      value: "`◽CircularLL\n``◽DoublyLL\n``◽SinglyLL\n`",
+    },
+    {
+      name: "Algorithms:",
+      value: "`◽BinarySearch\n``◽LinearSearch\n`",
+    }
+  )
 
   .setFooter(
     "Made with ❤️ by Bhuvnesh",
