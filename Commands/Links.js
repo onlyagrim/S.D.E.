@@ -59,5 +59,4 @@ function sendLink(message) {
     );
   }
 }
-
 module.exports = sendLink;
