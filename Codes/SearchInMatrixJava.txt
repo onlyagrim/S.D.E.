@@ -24,7 +24,6 @@ public class SearchInMatrix {
 
     }
 
-
     //Returns Row and Col Number of Element to be searched
     static int[] searchInMatrix(int[][] matrix, int target) {
         int r = 0;
