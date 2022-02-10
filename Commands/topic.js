@@ -13,7 +13,6 @@ const Embed3 = new Discord.MessageEmbed()
       value: "`◽BinarySearch\n``◽LinearSearch\n``◽SearchInMatrix\n`",
     }
   )
-
   .setFooter(
     "Made with ❤️ by Bhuvnesh",
 
