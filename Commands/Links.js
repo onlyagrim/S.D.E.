@@ -49,11 +49,14 @@ function sendLink(message) {
     message.channel.send("Binary Search in Python", {
       files: ["./Codes/BinarySearchPython.txt"],
     });
+  } else if (args[1] === "SearchInMatrix" && args[3] === "Java") {
+    message.channel.send("Search Element in Matrix", {
+      files: ["./Codes/SearchInMatrixJava.txt"],
+    });
   } else {
     message.reply(
       "It is currently unavailable or you wrote the wrong command!"
     );
   }
 }
-
 module.exports = sendLink;
