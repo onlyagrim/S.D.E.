@@ -42,8 +42,10 @@ To contribute to DSA-Codes follow the steps below:
 
   **Note : Topic name should be same everywhere**
 
-- **Step 4 : Push it to your forked repo**
-- **Step 5 : Create a Pull request with the new branch giving details of your changes.**
+- **Step 5 : Push it to your forked repo**
+- **Step 6 : Create a Pull request with the new branch giving details of your changes.**
+
+**Not able to think of a topic? No problem! Check the [CodeList](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md) and select one.**
 
 ## Contributing to Bot
 
