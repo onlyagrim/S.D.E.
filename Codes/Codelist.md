@@ -2,15 +2,17 @@
 
 This list contains list of all the codes that are already added or will be added in future.
 
-| Data Structures             | Java                 | Cpp                  | Python               |
+| Data Structures             | Java                 | C/Cpp                | Python               |
 | --------------------------- | -------------------- | -------------------- | -------------------- |
-| Arrays                      | :white_large_square: | :white_large_square: | :white_large_square: |
-| Circular Linked List        | :white_large_square: | :white_large_square: | :white_large_square: |
-| Circular Doubly Linked List | :white_large_square: | :white_large_square: | :white_large_square: |
+| Arrays                      | :white_large_square: | :white_check_mark:   | :white_large_square: |
+| Circular Linked List        | :white_large_square: | :white_check_mark:   | :white_large_square: |
+| Circular Doubly Linked List | :white_large_square: | :white_check_mark:   | :white_large_square: |
 | Doubly Linked List          | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
 | Singly Linked List          | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
-| Stack                       | :white_large_square: | :white_large_square: | :white_large_square: |
-| Queue                       | :white_large_square: | :white_large_square: | :white_large_square: |
+| Stack Using Array           | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
+| Stack Using Linked List     | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
+| Queue Using Array           | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
+| Queue Using Linked List     | :white_check_mark:   | :white_check_mark:   | :white_check_mark:   |
 | Binary Tree                 | :white_large_square: | :white_large_square: | :white_large_square: |
 | Binary Search Tree          | :white_large_square: | :white_large_square: | :white_large_square: |
 | Segment Tree                | :white_large_square: | :white_large_square: | :white_large_square: |
@@ -26,7 +28,7 @@ This list contains list of all the codes that are already added or will be added
 | Graph                       | :white_large_square: | :white_large_square: | :white_large_square: |
 | Matrix                      | :white_large_square: | :white_large_square: | :white_large_square: |
 
-| Algorithms               | Java                 | Cpp                  | Python               |
+| Algorithms               | Java                 | C/Cpp                | Python               |
 | ------------------------ | -------------------- | -------------------- | -------------------- |
 | Aho-Corasick Algorithm   | :white_large_square: | :white_large_square: | :white_large_square: |
 | Bellman-Ford Algorithm   | :white_large_square: | :white_large_square: | :white_large_square: |
@@ -64,6 +66,6 @@ This list contains list of all the codes that are already added or will be added
 | Ternary Search           | :white_large_square: | :white_large_square: | :white_large_square: |
 | Z Algorithm              | :white_large_square: | :white_large_square: | :white_large_square: |
 
-| Problems         | Java               | Cpp                | Python             |
+| Problems         | Java               | C/Cpp              | Python             |
 | ---------------- | ------------------ | ------------------ | ------------------ |
 | Search in matrix | :white_check_mark: | :white_check_mark: | :white_check_mark: |
