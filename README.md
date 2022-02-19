@@ -12,13 +12,15 @@
 
 ## About :
 
-This bot was made with an aim to provide Code of various topics of DSA at one place in three different languages i.e. Java, Python and C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other programming language can easily take reference from DSA-Bot.
-More features will be added to this bot in future. To Invite it your server [Click here >>](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
+This bot was made with an aim to provide Code of various topics of DSA at one place in three different languages i.e. Java, Python and C/C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other programming language can easily take reference from DSA-Bot.
+More features will be added to this bot in future. To Invite it your server [Click here.](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
 - Topic wise Code of DSA
-- 3 programming language support(c++, python, java)
+- 3 programming language support(C/C++, python, java)
 - Meme (only 10 req per day `useless`)
 - Performing user requests
+
+Check currently available topics [here.](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md)
 
 <br/>
 

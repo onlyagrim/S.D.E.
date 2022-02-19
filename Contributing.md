@@ -35,7 +35,7 @@ To contribute to DSA-Codes follow the steps below:
   - Then go to `./Commands/Links.js` ,copy the code below and add your topic name and language in which your code is written (Java/Python/C++) and paste it in the **Links.js :**
 
   ```
-  else if (args[1] === 'YourTopic' && args[3] === 'Java/C++/Python(choose yours)') {
+  else if (args[1] === 'YourTopic' && args[3] === 'Java/Cpp/Python(choose yours)') {
       message.channel.send("<Your Topic> in <language>", { files: ["./Codes/YourTopic.txt"] });
   }
   ```
