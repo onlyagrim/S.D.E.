@@ -1,0 +1,170 @@
+//this program contains functions for the folowing operations on circular linked list:
+//create
+//Insert at a position
+//delete from a position
+//Display
+//recursive Display
+
+#include<stdio.h>
+#include<stdlib.h>
+
+struct Node
+{
+    int data;
+    struct Node *next;
+}*Head;
+
+void create(int A[],int n)
+{
+    int i;
+    struct Node *t,*last;
+
+    Head=(struct Node *)malloc(sizeof(struct Node));
+    Head->data=A[0];
+    Head->next=Head;
+    last=Head;
+
+    for(i=1;i<n;i++)
+    {
+        t=(struct Node *)malloc(sizeof(struct Node));
+        t->data=A[i];
+        t->next=last->next;
+        last->next=t;
+        last=t;
+
+    }
+}
+
+
+//A node can be inserted at first position or last position.
+//if a node is inserted at first position and first is not made as head then it will be equal to adding a node at end.
+void Insert(struct Node *p, int index, int x)
+{
+    struct Node *t;
+    int i;
+
+    if(index < 0 || index > Length(p))
+        return;
+        
+    if(index==0) // inserting at index 0
+    {
+        t=(struct Node *)malloc(sizeof(struct Node));
+
+        t->data=x;
+
+        if(Head==NULL)
+        {
+            Head=t;
+            Head->next=Head;
+        }
+        else
+        {
+            while(p->next!=Head)
+            {
+                p=p->next;
+            }
+            p->next=t;
+            t->next=Head;
+            Head=t;
+        }
+    }
+    else // inserting at index other than 0
+    {
+        for(i=0;i<index-1;i++)p=p->next;
+
+        t=(struct Node *)malloc(sizeof(struct Node));
+        t->data=x;
+        t->next=p->next;
+        p->next=t;
+    }
+}
+
+int Length(struct Node *p)
+{
+    int len=0;
+    do
+    {
+        len++;
+        p=p->next;
+    } while (p!=Head);
+    return len;
+}
+int Delete(struct Node *p,int index)
+{
+    struct Node *q;
+    int i,x;
+    if(index < 0 || index > Length(Head))
+        return -1;
+    if(index==1)
+    {
+        while(p->next!=Head)
+        {
+            p=p->next;
+        }
+        x=Head->data;
+        if(Head==p)
+        {
+            free(Head);
+            Head=NULL;
+        }
+        else{
+            p->next=Head->next;
+            free(Head);
+            Head=p->next;
+        }
+    }
+    else{
+        for(i=0;i<index-2;i++)
+        {
+            p=p->next;
+        }
+        q=p->next;
+        p->next=q->next;
+        x=q->data;
+        free(q);
+    }
+        return x; 
+}
+
+
+void Display(struct Node *h)
+{
+
+    do
+    {
+        printf("%d->",h->data);
+        h=h->next;
+    }
+    while(h!=Head);
+    printf("\n");
+}
+
+void DisplayRecursive(struct Node *h)
+{
+    static int flag=0;
+    if(h!=Head || flag==0)
+    {
+        flag=1;
+        printf("%d ",h->data);
+        DisplayRecursive(h->next);
+    }
+    flag=0;
+}
+
+
+int main()
+{
+    int A[]={3,5,7,10,15};
+
+    create(A,5);
+    Insert(Head,5,10);
+
+    Display(Head);
+
+    Delete(Head,2);
+
+    Display(Head);
+    //DisplayRecursive(Head);
+    
+    return 0;
+}
