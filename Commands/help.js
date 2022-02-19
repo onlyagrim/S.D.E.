@@ -15,7 +15,7 @@ const Embed1 = new Discord.MessageEmbed()
     {
       name: "DSA Command:",
       value:
-        "`Available languages: C/C++, Python, Java\n``+code <Topic> in <Language>\n``+topics\n`",
+        "`Available languages: Cpp, Python, Java\n``+code <Topic> in <Language>\n``+topics\n`",
     },
     {
       name: "General Commands:",
