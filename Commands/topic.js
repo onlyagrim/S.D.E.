@@ -6,7 +6,8 @@ const Embed3 = new Discord.MessageEmbed()
   .addFields(
     {
       name: "Data Structures:",
-      value: "`◽CircularLL\n``◽DoublyLL\n``◽SinglyLL\n`",
+      value:
+        "`◽Arrays\n``◽CircularLL\n``◽CircularDoublyLL\n``◽DoublyLL\n``◽QueueUsingArray\n``◽QueueUsingLL\n``◽SinglyLL\n``◽StackUsingArray\n``◽StackUsingLL\n`",
     },
     {
       name: "Algorithms:",
