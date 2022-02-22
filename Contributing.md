@@ -40,12 +40,16 @@ To contribute to DSA-Codes follow the steps below:
   }
   ```
 
+  - If your topic is already present in [Codelist](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md) then replace `:white_large_square:` with `:white_check_mark:` for the specified code and language.
+    else :
+    Make a new row in the suitable table and add the required emojis.
+
   **Note : Topic name should be same everywhere**
 
 - **Step 5 : Push it to your forked repo**
 - **Step 6 : Create a Pull request with the new branch giving details of your changes.**
 
-**Not able to think of a topic? No problem! Check the [CodeList](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md) and select one.**
+**Not able to think of a topic? No problem! Check the [CodeList](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md) and select one.**:rocket:
 
 ## Contributing to Bot
 
