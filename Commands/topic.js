@@ -11,7 +11,7 @@ const Embed3 = new Discord.MessageEmbed()
     },
     {
       name: "Algorithms:",
-      value: "`◽BinarySearch\n``◽LinearSearch\n``◽SearchInMatrix\n`",
+      value: "`◽BinarySearch\n``◽LinearSearch\n``◽SearchInMatrix\n``◽SpiralPrint\n`",
     }
   )
   .setFooter(

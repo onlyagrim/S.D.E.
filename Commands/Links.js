@@ -121,6 +121,10 @@ function sendLink(message) {
     message.channel.send("Search Element in Matrix Python", {
       files: ["./Codes/SearchInMatrixPython.txt"],
     });
+  } else if (args[1] === "SpiralPrint" && args[3] === "Cpp") {
+    message.channel.send("Spiral Order Print in Cpp", {
+      files: ["./Codes/SpiralPrintCpp.txt"],
+    });
   } else {
     message.reply(
       "It is currently unavailable or you wrote the wrong command!"
