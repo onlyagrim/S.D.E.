@@ -66,6 +66,7 @@ This list contains list of all the codes that are already added or will be added
 | Ternary Search           | :white_large_square: | :white_large_square: | :white_large_square: |
 | Z Algorithm              | :white_large_square: | :white_large_square: | :white_large_square: |
 
-| Problems         | Java               | C/Cpp              | Python             |
-| ---------------- | ------------------ | ------------------ | ------------------ |
-| Search in matrix | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Problems         | Java                 | C/Cpp              | Python               |
+| ---------------- | -------------------- | ------------------ | -------------------- |
+| Search in matrix | :white_check_mark:   | :white_check_mark: | :white_check_mark:   |
+| Spiral Print     | :white_large_square: | :white_check_mark: | :white_large_square: |
