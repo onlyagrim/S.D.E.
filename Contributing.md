@@ -44,7 +44,9 @@ To contribute to DSA-Codes follow the steps below:
     else :
     Make a new row in the suitable table and add the required emojis.
 
-  **Note : Topic name should be same everywhere**
+  **Note :**
+  **1. Topic name should be same in `files section of Links.js` and `Codes`**
+  **2. Topic should be same in `topic.js` and `args[1] of Links.js`**
 
 - **Step 5 : Push it to your forked repo**
 - **Step 6 : Create a Pull request with the new branch giving details of your changes.**
