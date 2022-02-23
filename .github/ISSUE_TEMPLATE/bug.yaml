@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: Additional_Context
     attributes:
-      label: Text
+      label: Additional Context
       description: Additional information(if any)
     validations:
       required: false
