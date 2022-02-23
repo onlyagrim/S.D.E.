@@ -1,0 +1,32 @@
+name: 💻 Feature Request
+description: Wanna Request new feature for the bot?
+labels: ["feature-request"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Is your feature request related to a problem? Describe.
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: true
+  - type: textarea
+    id: description-solution
+    attributes:
+      label: Describe the solution you'd like.
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: textarea
+    id: Additional_Context
+    attributes:
+      label: Additional Context /suggestions/further improvements
+      description: Additional information(if any)
+    validations:
+      required: false
