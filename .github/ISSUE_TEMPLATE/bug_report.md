@@ -11,8 +11,5 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Cosmos version:**
-Please mention the cosmos version
-
 **Additional context**
 Add any other context about the problem here.

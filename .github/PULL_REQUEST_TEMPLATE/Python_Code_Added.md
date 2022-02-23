@@ -1,4 +1,4 @@
-#Added code
+# Added code
 
 Please tick the option that apply below(replace # with x):
 
@@ -11,4 +11,4 @@ Referenced issue: #7
 
 Reviewers:
 
-####Anything else that you want to share with us?
+#### Anything else that you want to share with us?
