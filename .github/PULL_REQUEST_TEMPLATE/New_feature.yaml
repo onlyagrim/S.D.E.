@@ -1,0 +1,41 @@
+name: 🚀 New Feature
+description: Wanna Request new feature for the bot?
+labels: ["new-feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description.
+      description: A clear and concise description of what feature you have added.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Please tick the checkboxes below.
+      description: You may select more than one.
+      options:
+        - label: I have self-reviewed my code.
+        - label: I have written quality Code with comments.
+        - label: My code is working perfectly and causes no error/s.
+  - type: input
+    id: referenced
+    attributes:
+      label: Referenced issue
+      placeholder: "Link the issue here"
+    validations:
+      required: true
+  - type: textarea
+    id: Additional_Context
+    attributes:
+      label: Additional Context /suggestions/further improvements
+      description: Additional information(if any)
+    validations:
+      required: false
