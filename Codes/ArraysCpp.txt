@@ -30,7 +30,7 @@ private:
     void swap(int *x, int *y);
 
 public:
-    Array() // conntructor
+    Array() // constructor
     {
         size = 10;
         length = 0;
@@ -62,7 +62,7 @@ public:
     void InsertSort(int x);
     int isSorted();
     void Rearrange();
-    Array *Merge(Array arr2); //since we are wqorking with 2 arrays one array must be passed.
+    Array *Merge(Array arr2); //since we are working with 2 arrays one array must be passed.
     Array *Union(Array arr2);
     Array *Diff(Array arr2);
     Array *Inter(Array arr2);
