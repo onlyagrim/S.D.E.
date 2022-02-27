@@ -1,0 +1,28 @@
+//    selection sort
+    public static void main(String[] args) {
+        int[] arr = {-1,8,2,-5,4,6,3,2,-1};
+//        initializing the function here
+        selection(arr);
+//        output of the sorted array
+        System.out.println(Arrays.toString(arr));
+    }
+    static void selection(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            int max = arr[0];
+            int position = 0;
+//            swap is the index of the last max element or the last element.
+            int swap = arr.length - 1 - i;
+//            loop will run to find the max in array or in the remaining array(except last swapped max).
+            for (int j = 0; j <= arr.length - 1 - i; j++) {
+                if (max < arr[j]) {
+                max = arr[j];
+                position = j;
+                }
+            }
+//            putting the max at the swap index and the element at swap index at position
+            int temp = arr[swap];
+            arr[swap] = max;
+            arr[position] = temp;
+        }
+    }
+}
