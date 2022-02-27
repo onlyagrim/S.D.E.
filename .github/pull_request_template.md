@@ -19,7 +19,7 @@ Thanks again!
 - [#] I have self-reviewed my code.
 - [#] I have written neat Code with proper comments.
 - [#] My code is working perfectly and causing no error/s.
-- [#] I have Read and followed all the steps of [Contributing guide](Contributing.md) before opening this pull request
+- [#] I have Read and followed all the steps of [Contributing guide](https://github.com/Bhuvnesh875/S.D.E./blob/main/Contributing.md) before opening this pull request
 
 Referenced issue : #
 

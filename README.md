@@ -1,26 +1,22 @@
 <p align="center">
-<img src="https://i.ibb.co/jG3Gffy/dsa.jpg" width=200px height=200px align="right">
-<h1 > DSA-Bot </h1>
+<img src="https://i.ibb.co/JCyx96v/sde-whitebg.png" width=200px height=200px align="right">
+<h1 > S.D.E. </h1>
 <p>
-<p>
 
-<b>Bot which provides DSA Codes along with fun!!</b>
+### Who am i?🤫
 
-</p>
+Hello! I am a bot who is a CSE undergrad, passed out in 2015 from Discord university and working full time at Discord since then. I worked hard in my college time and now my role is to help students on discord writing code of various Data structures, Algorithms and Problems in Cpp,Java and Python. Yes, i can code proficiently in 3 languages!
 
-<br/><br/>
+To Invite me to your server [Click here.](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
 
-## About :
+### What i can do?👀
 
-This bot was made with an aim to provide Code of various topics of DSA at one place in three different languages i.e. Java, Python and C/C++. If anyone get stuck at any point while learning DSA can easily get the code from this bot for reference. Also, if anyone wants to implement it in other programming language can easily take reference from DSA-Bot.
-More features will be added to this bot in future. To Invite it your server [Click here.](https://discordapp.com/oauth2/authorize?client_id=871086013152391168&scope=bot&permissions=8).
+- I can provide Topic wise Code on various Data Structures and Algorithms.
+- I have solution to many problems too!
+- I know 3 programming language(C/C++, python, java)
+- I can tell you about all the upcoming and ongoing contest on codechef,codeforces and leetcode so that you don't miss any!
 
-- Topic wise Code of DSA
-- 3 programming language support(C/C++, python, java)
-- Meme (only 10 req per day `useless`)
-- Performing user requests
-
-Check currently available topics [here.](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md)
+Click [here](https://github.com/Bhuvnesh875/DSA-Bot/tree/main/Codes/Codelist.md) to see what all topics i remember.
 
 <br/>
 
@@ -28,13 +24,11 @@ Check currently available topics [here.](https://github.com/Bhuvnesh875/DSA-Bot/
 
 - Discord Js
 
-<br/>
-
 ### **Hosting:**
 
 - Heroku
 
-<br/><br/>
+<br/>
 
 <!-- ## Commands Preview :
 
@@ -42,26 +36,44 @@ Check currently available topics [here.](https://github.com/Bhuvnesh875/DSA-Bot/
 
 <br/><br/>
 
-#### `+` - Helps with the commands and features the bot offer.
+### The only words I understands:
 
-#### `+code <topic> in <language>` - Gives the link of the video of the specified topic in specified language.
+**"+"** - To see what i can do.😌
 
-#### `+topics` - Shows the DSA topics available.
+**"+DSlist"** - Will send the list of data structures' topics which i still remember. 🥲
 
-#### `+cc / +clearchanel` - Clears the recent conversation of that channel.
+**"+ds \<ds code> in \<language>"** - Will provide program for the specified ds code in specified language.
 
-#### `+serverInfo` - Displays all the information about the server.
+**"+AlgoList"** - Will send the list of the Algorithms which i can still think of.🤔
 
-#### `+invite` - Sends Dm to invite bot to your server.
+**"+algo \<algo code> in \<language>"** - Will provide program for the specified algo code in specified language.
 
-#### `+serverCount` - Tells the count of servers bot is running in.
+**"+problemList"** - Will send the list of Coding Problems which i can still solve.😎
 
-#### `+Meme or +meme` - Sends a meme in the guild.
+**"+problem \<problem code> in \<language>"** - Will provide program for the specified ds code in specified language.
 
-#### `+version` - Shows the current version of the bot.
+**"+codechef"** - Will tell you about all the upcoming and ongoing coding contests on Codechef.
 
-<br/><br/>
+**"+codeforces"** - Will tell you about all the upcoming and ongoing coding contests on Codeforces.
+
+**"+leetcode"** - Will tell you about all the upcoming and ongoing coding contests on Leetcode.
+
+**"+cc / +clearchanel"** - Will clear the recent conversation of that channel.
+
+**"+serverInfo"** - Will displays all the information about your server.
+
+**"+invite"** - Will Dm to invite me to your server.
+
+**"+serverCount"** - Will tell the count of servers i am helping in.
+
+**"+version"** - Will tell you my current version.
+
+**"+uptime"** - Will tell you when i took my last nap.
+
+**Wanna watch me grow old?** [Click here](https://discord.gg/bgz7vFcTyn)
 
 ## Interested in contribution?
 
-You are free to come up with any contribution as you want but please go through [Contributing guide](Contributing.md) before contributing.
+Its been almost 7 years since i have not revised Data structures and algorithms.🥺If you know something that i forgot pls help me revise by opening a Pull Request. Please read [Contributing guide](Contributing.md) before opening a PR.
+
+**Thanks in advance💐**

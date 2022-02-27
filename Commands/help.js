@@ -2,35 +2,35 @@ const Discord = require("discord.js");
 
 const Embed1 = new Discord.MessageEmbed()
   .setColor("0x0099ff")
-  .setTitle("Learn with FUN")
-  .setAuthor(
-    "DSA Bot",
-    "https://i.ibb.co/jG3Gffy/dsa.jpg",
-    "https://discord.js.org"
-  )
+  .setTitle("Never Stop Learning!")
+  .setAuthor("S.D.E", "https://i.ibb.co/HdBBqG1/mob-dark.png")
   .setDescription(
-    "Data structure and algorithms is one of the most important topic in a Software Engineer`s life. DSA Bot brings you the resources to learn every topic of DSA."
+    "Sacrificing my sleep and working full time at discord to help people by providing code for various data strutures, algorithms and coding problems!"
   )
   .addFields(
     {
-      name: "DSA Command:",
+      name: "DSA:",
       value:
-        "`Available languages: Cpp, Python, Java\n``+code <Topic> in <Language>\n``+topics\n`",
+        "`Languages: Cpp, Python & Java\n``+ds <ds-code> in <Language>\n``+DSlist\n``+algo <algo-code> in <Language>\n``+Algolist\n``+problem <p-code> in <Language>\n``+problemsList\n`",
     },
     {
-      name: "General Commands:",
-      value: "`+invite\n``+serverInfo\n``+serverCount\n``+version\n`",
+      name: "Coding contests:",
+      value: "`+codechef\n``+leetcode\n``+codeforces\n`",
     },
     {
-      name: "Fun Commands:",
-      value: "`+Meme or +meme (only 10 req per day  //useless)\n`",
+      name: "General:",
+      value:
+        "`+invite\n``+serverInfo\n``+serverCount\n``+version\n``+uptime\n`",
     },
     {
-      name: "Admin Commands:",
+      name: "Admin:",
       value: "`+cc or +clearchannel\n`",
     }
   )
 
-  .setFooter(`Made with ❤️ by Bhuvnesh`, "https://i.ibb.co/jG3Gffy/dsa.jpg");
+  .setFooter(
+    `Made with ❤️ by Bhuvnesh`,
+    "https://i.ibb.co/HdBBqG1/mob-dark.png"
+  );
 
 module.exports = Embed1;

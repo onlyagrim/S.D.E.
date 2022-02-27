@@ -1,15 +1,15 @@
 {
-  "name": "DSA-Bot",
-  "version": "2.0.1",
+  "name": "S.D.E.",
+  "version": "3.0.0",
   "description": "I provide best resources to learn DSA with fun! ",
-  "main": "bot.js",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "express": "^4.17.3",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.15",
-    "reddit-image-fetcher": "^2.0.10"
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {},
   "scripts": {

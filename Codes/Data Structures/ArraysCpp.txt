@@ -15,9 +15,6 @@
 // check if array is sorted
 // rearrange an array
 // merge of two arrays
-// union of two arrays
-// difference of two arrays
-// intersection of two arrays
 
 #include <iostream>
 using namespace std;
@@ -30,7 +27,7 @@ private:
     void swap(int *x, int *y);
 
 public:
-    Array() // conntructor
+    Array() // constructor
     {
         size = 10;
         length = 0;
@@ -62,10 +59,7 @@ public:
     void InsertSort(int x);
     int isSorted();
     void Rearrange();
-    Array *Merge(Array arr2); //since we are wqorking with 2 arrays one array must be passed.
-    Array *Union(Array arr2);
-    Array *Diff(Array arr2);
-    Array *Inter(Array arr2);
+    
 };
 void Array::Display()
 {
@@ -254,88 +248,6 @@ Array *Array::Merge(Array arr2)
     return arr3;
 }
 
-Array *Array::Union(Array arr2)
-{
-    int i, j, k;
-    i = j = k = 0;
-
-    Array *arr3 = new Array(length + arr2.length);
-
-    while (i < length && j < arr2.length)
-    {
-        if (A[i] < arr2.A[j])
-            arr3->A[k++] = A[i++];
-        else if (arr2.A[j] < A[i])
-            arr3->A[k++] = arr2.A[j++];
-        else
-        {
-            arr3->A[k++] = A[i++];
-            j++;
-        }
-    }
-    for (; i < length; i++)
-        arr3->A[k++] = A[i];
-    for (; j < arr2.length; j++)
-        arr3->A[k++] = arr2.A[j];
-
-    arr3->length = k;
-
-    return arr3;
-}
-
-
-Array *Array::Inter(Array arr2)
-{
-    int i, j, k;
-    i = j = k = 0;
-
-    Array *arr3 = new Array(length + arr2.length);
-
-    while (i < length && j < arr2.length)
-    {
-        if (A[i] < arr2.A[j])
-            i++;
-        else if (arr2.A[j] < A[i])
-            j++;
-        else if (A[i] == arr2.A[j])
-        {
-            arr3->A[k++] = A[i++];
-            j++;
-        }
-    }
-
-    arr3->length = k;
-
-    return arr3;
-}
-
-
-Array *Array::Diff(Array arr2)
-{
-    int i, j, k;
-    i = j = k = 0;
-
-    Array *arr3 = new Array(length + arr2.length);
-
-    while (i < length && j < arr2.length)
-    {
-        if (A[i] < arr2.A[j])
-            arr3->A[k++] = A[i++];
-        else if (arr2.A[j] < A[i])
-            j++;
-        else
-        {
-            i++;
-            j++;
-        }
-    }
-    for (; i < length; i++)
-        arr3->A[k++] = A[i];
-
-    arr3->length = k;
-
-    return arr3;
-}
 
 
 int main()
