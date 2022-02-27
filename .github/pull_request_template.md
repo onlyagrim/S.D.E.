@@ -14,7 +14,7 @@ Thanks again!
 
 <!-- Share artifacts of the changes, be they code snippets, GIFs or screenshots; whatever shares the most context. If you made changes to the `content` directory, a table will populate in a comment below with the staging and live article links -->
 
-### Check off the following(replace 3 with x):
+### Check off the following(replace # with x):
 
 - [#] I have self-reviewed my code.
 - [#] I have written neat Code with proper comments.
